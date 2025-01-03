@@ -98,7 +98,7 @@ const Navbar: React.FC = () => {
       {/* Main Navbar */}
       <nav className="flex justify-between items-center bg-white shadow-md px-6 py-4">
         {/* Logo */}
-        <div className="text-xl font-bold">LOGO</div>
+        <div className="text-xl font-bold">Bandage</div>
 
         {/* Navigation Links (Hidden on Mobile) */}
         <div className="hidden md:flex items-center gap-6">
@@ -117,7 +117,7 @@ const Navbar: React.FC = () => {
           
             
             <Link href={"./about"}className="text-gray-700 hover:text-blue-500 mb-2">About</Link>
-            <Link href={"./"}className="text-gray-700 hover:text-blue-500 mb-2">Blog</Link>
+            {/* <Link href={"./"}className="text-gray-700 hover:text-blue-500 mb-2">Blog</Link> */}
             <Link href={"./contact"}className="text-gray-700 hover:text-blue-500 mb-2">Contact</Link>
 
             <Link href={"./shop"}className="text-gray-700 hover:text-blue-500 mb-2">Pages</Link>
@@ -151,7 +151,7 @@ const Navbar: React.FC = () => {
             <Link href={"./"}className="text-gray-700 hover:text-blue-500 mb-2">Home</Link>
             <Link href={"./shop"}className="text-gray-700 hover:text-blue-500 mb-2">Shop</Link>
             <Link href={"./about"}className="text-gray-700 hover:text-blue-500 mb-2">About</Link>
-            <Link href={"./"}className="text-gray-700 hover:text-blue-500 mb-2">Blog</Link>
+            {/* <Link href={"./"}className="text-gray-700 hover:text-blue-500 mb-2">Blog</Link> */}
             <Link href={"./contact"}className="text-gray-700 hover:text-blue-500 mb-2">Contact</Link>
 
             <Link href={"./shop"}className="text-gray-700 hover:text-blue-500 mb-2">Pages</Link>
